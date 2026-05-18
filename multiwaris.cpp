@@ -29,3 +29,13 @@ class pelajar : virtual public orang {
     }
 };
 
+class budi : public pekerja,public pelajar{
+    public:
+     budi(int pUmur) :
+        pekerja(pUmur),
+        pelajar(pUmur),
+        orang(pUmur)
+    {
+        cout << "pekerja dibuat\n"<<endl;
+    }
+};
