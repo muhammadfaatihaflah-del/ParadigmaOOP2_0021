@@ -19,4 +19,6 @@ class abstraksiklas{
 
 int main(){
     abstraksiklas ak;
+    ak.setxy("yogyakarta","kampus")
+    
 }
