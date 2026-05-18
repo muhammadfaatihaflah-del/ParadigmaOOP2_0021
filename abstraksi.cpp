@@ -10,4 +10,9 @@ class abstraksiklas{
             x = a;
             x = b;
         }
+        //menampilkan nilai
+        void display(){
+            cout << "x = " << x <<endl;
+            cout << "y = " << x <<endl;
+        }
 };
