@@ -13,6 +13,6 @@ public:
     }
 };
 
-int main{
-    
+int main(){
+    remotelampu lampurumah;
 }
