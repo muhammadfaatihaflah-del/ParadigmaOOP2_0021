@@ -2,5 +2,12 @@
 using namespace std;
 
 class abstraksiklas{
-    private:string x,y
+    private:string x,y;
+    public:
+        //method mengisi nilai
+        //private number
+        void setxy(string a,string b){
+            x = a;
+            x = b;
+        }
 };
