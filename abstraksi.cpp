@@ -18,5 +18,5 @@ class abstraksiklas{
 };
 
 int main(){
-    
+    abstraksiklas ak;
 }
